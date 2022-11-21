@@ -29,7 +29,6 @@ h4 {
 
 .nav-wrapper {
   width: 100%;
-  /* Safari */
   height: 5rem;
   background-color: white;
   display: flex;
@@ -47,8 +46,8 @@ h4 {
 .nav {
   display: flex;
   flex-direction: row;
-  list-style: none;
   align-items: center;
+  list-style: none;
   padding-right: 4rem;
 }
 
@@ -60,8 +59,8 @@ h4 {
 
 .nav-item {
   color: black;
-  padding-right: 1rem;
   font-size: 8px;
+  padding-right: 1rem;
 }
 
 .nav-item:last-child {
@@ -69,15 +68,19 @@ h4 {
 }
 
 .nav-item a {
-  color: black;
+  color: inherit;
   font-size: 1rem;
-  font-weight: 500;
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
 .nav-item a:hover {
   color: blue;
+}
+
+.active {
+  color: blue;
+  font-weight: bold;
 }
 
 /* HEM */
