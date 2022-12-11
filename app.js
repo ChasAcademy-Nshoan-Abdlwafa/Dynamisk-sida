@@ -3,7 +3,7 @@ appendList();
 /* let x = list[8]; */
 function appendList() {
   return fetch(
-    "https://raw.githubusercontent.com/ChasAcademy-Nshoan-Abdlwafa/JSON-Todo-List/main/data.json"
+    "https://raw.githubusercontent.com/ChasAcademy-Nshoan-Abdlwafa/Dynamisk-sida/main/data.json"
   )
     .then((result) => result.json()) // Skapar JSON-data, "jsonifierar"
     .then((content) => {
@@ -30,7 +30,7 @@ appendList();
 /* let x = list[8]; */
 function appendList() {
   return fetch(
-    "https://raw.githubusercontent.com/ChasAcademy-Nshoan-Abdlwafa/JSON-Todo-List/main/data.json"
+    "https://raw.githubusercontent.com/ChasAcademy-Nshoan-Abdlwafa/Dynamisk-sida/main/data.json"
   )
     .then((result) => result.json()) // Skapar JSON-data, "jsonifierar"
     .then((content) => {
@@ -57,7 +57,7 @@ appendList();
 /* let x = list[8]; */
 function appendList() {
   return fetch(
-    "https://raw.githubusercontent.com/ChasAcademy-Nshoan-Abdlwafa/JSON-Todo-List/main/data.json"
+    "https://raw.githubusercontent.com/ChasAcademy-Nshoan-Abdlwafa/Dynamisk-sida/main/data.json"
   )
     .then((result) => result.json()) // Skapar JSON-data, "jsonifierar"
     .then((content) => {
@@ -84,7 +84,7 @@ appendList();
 /* let x = list[8]; */
 function appendList() {
   return fetch(
-    "https://raw.githubusercontent.com/ChasAcademy-Nshoan-Abdlwafa/JSON-Todo-List/main/data.json"
+    "https://raw.githubusercontent.com/ChasAcademy-Nshoan-Abdlwafa/Dynamisk-sida/main/data.json"
   )
     .then((result) => result.json()) // Skapar JSON-data, "jsonifierar"
     .then((content) => {
