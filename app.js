@@ -1,55 +1,48 @@
 let list1 = document.getElementById("list1");
 let list2 = document.getElementById("list2");
-let list3 = document.getElementById("list3");
-let list4 = document.getElementById("list4");
 appendList();
 function appendList() {
   return fetch(
     "https://raw.githubusercontent.com/ChasAcademy-Nshoan-Abdlwafa/Dynamisk-sida/main/data.json"
   )
-    .then((result) => result.json()) // Skapar JSON-data, "jsonifierar"
+    .then((result) => result.json())
     .then((content) => {
-      // Färdigt JSON-objekt, redo att användas
       console.log(content);
-      for (let i = 0; i < content.school1.length; i++) {
-        // Skapar for-loop, som går igenom varje element i listan
-        // Första delen (let i = 0;): vart det ska börja iterera, här börjar det på allra första elementet, dvs. i = 0
-        // Andra delen (i < content.school1.length;): när det ska sluta iterera, här avslutas itererationen när den har nått det sista elementet
-        // Tredje delen (i++): hur många steg per iteration, här itereras det över varje enskild listelement, så i++ (i += 1)
+      for (let i = 0; i < content.Chas.length; i++) {
 
-        let listItem = document.createElement("li"); // Skapar ett li-objekt i HTML, via JavaScript
-
-        let schoolItem = content.school1[i];
-        listItem.innerHTML = schoolItem.Chas; // Populera skapade li-elementet med värdena från JSON-datan
-
-        list1.appendChild(listItem); // Lägger till li-element till ul-listan som hämtades in från HTML-dokumentet
-      }
-
-      for (let i = 0; i < content.school2.length; i++) {
         let listItem = document.createElement("li");
 
-        let schoolItem = content.school2[i];
-        listItem.innerHTML = schoolItem.Wijkmanska;
+        let educationItem = content.Chas[i];
+        listItem.innerHTML = educationItem.Chas;
+
+        list1.appendChild(listItem);
+      }
+
+      for (let i = 0; i < content.Wijkmanska.length; i++) {
+        let listItem = document.createElement("li");
+
+        let educationItem = content.Wijkmanska[i];
+        listItem.innerHTML = educationItem.Wijkmanska;
+
+        list1.appendChild(listItem);
+      }
+
+      for (let i = 0; i < content.Postnord.length; i++) {
+        let listItem = document.createElement("li");
+
+        let workItem = content.Postnord[i];
+        listItem.innerHTML = workItem.Postnord;
 
         list2.appendChild(listItem);
       }
 
-      for (let i = 0; i < content.workplace1.length; i++) {
+      for (let i = 0; i < content.ÖB.length; i++) {
         let listItem = document.createElement("li");
 
-        let workplaceItem = content.workplace1[i];
-        listItem.innerHTML = workplaceItem.Postnord;
+        let workItem = content.ÖB[i];
+        listItem.innerHTML = workItem.ÖB;
 
-        list3.appendChild(listItem);
-      }
-
-      for (let i = 0; i < content.workplace1.length; i++) {
-        let listItem = document.createElement("li");
-
-        let workplaceItem = content.workplace2[i];
-        listItem.innerHTML = workplaceItem.ÖB;
-
-        list4.appendChild(listItem);
+        list2.appendChild(listItem);
       }
     });
 }
