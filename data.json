@@ -1,70 +1,22 @@
 {
   "school1": [
     {
-      "ToDo": "test1"
-    },
-    {
-      "ToDo": "test2"
-    },
-    {
-      "ToDo": "test3"
-    },
-    {
-      "ToDo": "test4"
-    },
-    {
-      "ToDo": "test5"
+      "Chas": "test1"
     }
   ],
   "school2": [
     {
-      "ToDo": "test6"
-    },
-    {
-      "ToDo": "test7"
-    },
-    {
-      "ToDo": "test8"
-    },
-    {
-      "ToDo": "test9"
-    },
-    {
-      "ToDo": "test10"
+      "Wijkmanska": "test2"
     }
   ],
   "workplace1": [
     {
-      "ToDo": "test11"
-    },
-    {
-      "ToDo": "test12"
-    },
-    {
-      "ToDo": "test13"
-    },
-    {
-      "ToDo": "test14"
-    },
-    {
-      "ToDo": "test15"
+      "Postnord": "test3"
     }
   ],
   "workplace2": [
     {
-      "ToDo": "test16"
-    },
-    {
-      "ToDo": "test17"
-    },
-    {
-      "ToDo": "test18"
-    },
-    {
-      "ToDo": "test19"
-    },
-    {
-      "ToDo": "test10"
+      "ÖB": "test4"
     }
   ]
 }

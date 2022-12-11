@@ -14,13 +14,13 @@ function appendList() {
       for (let i = 0; i < content.school1.length; i++) {
         // Skapar for-loop, som går igenom varje element i listan
         // Första delen (let i = 0;): vart det ska börja iterera, här börjar det på allra första elementet, dvs. i = 0
-        // Andra delen (i < content.todolist.length;): när det ska sluta iterera, här avslutas itererationen när den har nått det sista elementet
+        // Andra delen (i < content.school1.length;): när det ska sluta iterera, här avslutas itererationen när den har nått det sista elementet
         // Tredje delen (i++): hur många steg per iteration, här itereras det över varje enskild listelement, så i++ (i += 1)
 
         let listItem = document.createElement("li"); // Skapar ett li-objekt i HTML, via JavaScript
 
         let schoolItem = content.school1[i];
-        listItem.innerHTML = schoolItem.ToDo; // Populera skapade li-elementet med värdena från JSON-datan
+        listItem.innerHTML = schoolItem.Chas; // Populera skapade li-elementet med värdena från JSON-datan
 
         list1.appendChild(listItem); // Lägger till li-element till ul-listan som hämtades in från HTML-dokumentet
       }
@@ -29,7 +29,7 @@ function appendList() {
         let listItem = document.createElement("li");
 
         let schoolItem = content.school2[i];
-        listItem.innerHTML = schoolItem.ToDo;
+        listItem.innerHTML = schoolItem.Wijkmanska;
 
         list2.appendChild(listItem);
       }
@@ -38,7 +38,7 @@ function appendList() {
         let listItem = document.createElement("li");
 
         let workplaceItem = content.workplace1[i];
-        listItem.innerHTML = workplaceItem.ToDo;
+        listItem.innerHTML = workplaceItem.Postnord;
 
         list3.appendChild(listItem);
       }
@@ -47,7 +47,7 @@ function appendList() {
         let listItem = document.createElement("li");
 
         let workplaceItem = content.workplace2[i];
-        listItem.innerHTML = workplaceItem.ToDo;
+        listItem.innerHTML = workplaceItem.ÖB;
 
         list4.appendChild(listItem);
       }
