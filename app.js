@@ -8,40 +8,27 @@ function appendList() {
     .then((result) => result.json())
     .then((content) => {
       console.log(content);
-      for (let i = 0; i < content.Chas.length; i++) {
+      for (let i = 0; i < content.Education.length; i++) {
+        let educationItem = content.Education[i];
 
+        let title = document.createElement("h4");
         let listItem = document.createElement("li");
+        title.innerHTML = Object.keys(educationItem);
+        listItem.innerHTML = Object.values(educationItem);
 
-        let educationItem = content.Chas[i];
-        listItem.innerHTML = educationItem.Chas;
-
+        list1.appendChild(title);
         list1.appendChild(listItem);
       }
 
-      for (let i = 0; i < content.Wijkmanska.length; i++) {
+      for (let i = 0; i < content.Work.length; i++) {
+        let workItem = content.Work[i];
+
+        let title = document.createElement("h4");
         let listItem = document.createElement("li");
+        title.innerHTML = Object.keys(workItem);
+        listItem.innerHTML = Object.values(workItem);
 
-        let educationItem = content.Wijkmanska[i];
-        listItem.innerHTML = educationItem.Wijkmanska;
-
-        list1.appendChild(listItem);
-      }
-
-      for (let i = 0; i < content.Postnord.length; i++) {
-        let listItem = document.createElement("li");
-
-        let workItem = content.Postnord[i];
-        listItem.innerHTML = workItem.Postnord;
-
-        list2.appendChild(listItem);
-      }
-
-      for (let i = 0; i < content.ÖB.length; i++) {
-        let listItem = document.createElement("li");
-
-        let workItem = content.ÖB[i];
-        listItem.innerHTML = workItem.ÖB;
-
+        list2.appendChild(title);
         list2.appendChild(listItem);
       }
     });
