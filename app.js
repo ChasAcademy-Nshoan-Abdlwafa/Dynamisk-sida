@@ -19,35 +19,35 @@ function appendList() {
 
         let listItem = document.createElement("li"); // Skapar ett li-objekt i HTML, via JavaScript
 
-        let school1Item = content.school1[i];
-        listItem.innerHTML = school1Item.ToDo; // Populera skapade li-elementet med värdena från JSON-datan
+        let schoolItem = content.school1[i];
+        listItem.innerHTML = schoolItem.ToDo; // Populera skapade li-elementet med värdena från JSON-datan
 
         list1.appendChild(listItem); // Lägger till li-element till ul-listan som hämtades in från HTML-dokumentet
       }
 
-      for (let i = 0; i < content.todolist2.length; i++) {
+      for (let i = 0; i < content.school2.length; i++) {
         let listItem = document.createElement("li");
 
-        let todoListItem = content.todolist2[i];
-        listItem.innerHTML = todoListItem.ToDo;
+        let schoolItem = content.school2[i];
+        listItem.innerHTML = schoolItem.ToDo;
 
         list2.appendChild(listItem);
       }
 
-      for (let i = 0; i < content.todolist3.length; i++) {
+      for (let i = 0; i < content.workplace1.length; i++) {
         let listItem = document.createElement("li");
 
-        let todoListItem = content.todolist3[i];
-        listItem.innerHTML = todoListItem.ToDo;
+        let workplaceItem = content.workplace1[i];
+        listItem.innerHTML = workplaceItem.ToDo;
 
         list3.appendChild(listItem);
       }
 
-      for (let i = 0; i < content.todolist4.length; i++) {
+      for (let i = 0; i < content.workplace1.length; i++) {
         let listItem = document.createElement("li");
 
-        let todoListItem = content.todolist4[i];
-        listItem.innerHTML = todoListItem.ToDo;
+        let workplaceItem = content.workplace2[i];
+        listItem.innerHTML = workplaceItem.ToDo;
 
         list4.appendChild(listItem);
       }
