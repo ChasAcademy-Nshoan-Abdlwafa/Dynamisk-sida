@@ -20,11 +20,11 @@ h1 {
 }
 
 h2 {
-  font-family: Open Sans;
+  font-family: Lato;
 }
 
 h4 {
-  font-family: Lato;
+  font-family: Poppins;
 }
 
 .nav-wrapper {
@@ -85,8 +85,8 @@ h4 {
 
 /* HEM */
 .main-content {
-  height: 100vh;
-  padding: 5rem 2rem;
+  height: auto;
+  padding: 3rem 2rem;
   background-size: cover;
   background-image: linear-gradient(darkgreen, green);
   text-align: center;
@@ -161,7 +161,7 @@ h4 {
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
-  padding: 7rem 4rem;
+  padding: 10rem 4rem;
   background-size: cover;
   background-image: linear-gradient(darkgreen, green);
 }
@@ -205,7 +205,7 @@ h4 {
   height: auto;
   min-height: 200px;
   width: auto;
-  padding: 7rem 4rem;
+  padding: 10rem 4rem;
   background-size: cover;
   background-image: linear-gradient(darkgreen, green);
 }
@@ -231,7 +231,7 @@ h4 {
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 
   .slider-wrapper {
@@ -243,15 +243,15 @@ h4 {
   }
 
   .content-1 {
-    padding: 5rem 2rem;
+    padding: 4rem 2rem;
   }
 
   .content-2 {
-    padding: 1rem 2rem;
+    padding: 4rem 2rem;
   }
 
   .content-3 {
-    padding: 8rem 2rem;
+    padding: 4rem 2rem;
   }
 
   .content-3 img {
