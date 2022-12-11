@@ -1,0 +1,86 @@
+[
+  [
+    {
+      "school-1": [
+        {
+          "1": "school1"
+        },
+        {
+          "2": "school2"
+        },
+        {
+          "3": "school3"
+        },
+        {
+          "4": "school4"
+        },
+        {
+          "5": "school5"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "school-2": [
+        {
+          "1": "school1"
+        },
+        {
+          "2": "school2"
+        },
+        {
+          "3": "school3"
+        },
+        {
+          "4": "school4"
+        },
+        {
+          "5": "school5"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "workplace-1": [
+        {
+          "1": "workplace1"
+        },
+        {
+          "2": "workplace2"
+        },
+        {
+          "3": "workplace3"
+        },
+        {
+          "4": "workplace4"
+        },
+        {
+          "5": "workplace5"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "workplace-2": [
+        {
+          "1": "workplace1"
+        },
+        {
+          "2": "workplace2"
+        },
+        {
+          "3": "workplace3"
+        },
+        {
+          "4": "workplace4"
+        },
+        {
+          "5": "workplace5"
+        }
+      ]
+    }
+  ]
+]
