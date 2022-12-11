@@ -51,7 +51,7 @@ function appendList() {
         let todoListItem = content.todolist3[i];
         listItem.innerHTML = todoListItem.ToDo; // Populera skapade li-elementet med värdena från JSON-datan
 
-        list2.appendChild(listItem); // Lägger till li-element till ul-listan som hämtades in från HTML-dokumentet
+        list3.appendChild(listItem); // Lägger till li-element till ul-listan som hämtades in från HTML-dokumentet
       }
 
       for (let i = 0; i < content.todolist4.length; i++) {
@@ -65,7 +65,7 @@ function appendList() {
         let todoListItem = content.todolist4[i];
         listItem.innerHTML = todoListItem.ToDo; // Populera skapade li-elementet med värdena från JSON-datan
 
-        list2.appendChild(listItem); // Lägger till li-element till ul-listan som hämtades in från HTML-dokumentet
+        list4.appendChild(listItem); // Lägger till li-element till ul-listan som hämtades in från HTML-dokumentet
       }
     });
 }
