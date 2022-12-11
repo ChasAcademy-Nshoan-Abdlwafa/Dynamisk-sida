@@ -88,7 +88,7 @@ h4 {
   height: 100vh;
   padding: 5rem 2rem;
   background-size: cover;
-  background-image: linear-gradient(darkblue, blue);
+  background-image: linear-gradient(darkgreen, green);
   text-align: center;
 }
 
@@ -139,14 +139,14 @@ h4 {
 
 #slide-arrow-prev {
   left: 0;
-  padding-left: 0.25rem;
-  border-radius: 0 2rem 2rem 0;
+  padding-left: 0.5rem;
+  border-radius: 2rem 0 0 2rem;
 }
 
 #slide-arrow-next {
   right: 0;
-  padding-left: 0.75rem;
-  border-radius: 2rem 0 0 2rem;
+  padding-left: 0.5rem;
+  border-radius: 0 2rem 2rem 0;
 }
 
 .photo {
@@ -163,7 +163,7 @@ h4 {
   justify-content: center;
   padding: 7rem 4rem;
   background-size: cover;
-  background-image: linear-gradient(darkblue, blue);
+  background-image: linear-gradient(darkgreen, green);
 }
 
 .increased-margin {
@@ -184,7 +184,7 @@ h4 {
   width: auto;
   padding: 10rem 4rem;
   background-size: cover;
-  background-image: linear-gradient(darkblue, blue);
+  background-image: linear-gradient(darkgreen, green);
 }
 
 .image-container {
@@ -207,7 +207,7 @@ h4 {
   width: auto;
   padding: 7rem 4rem;
   background-size: cover;
-  background-image: linear-gradient(darkblue, blue);
+  background-image: linear-gradient(darkgreen, green);
 }
 
 .portfolio-list-item {
