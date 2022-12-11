@@ -1,86 +1,36 @@
-[
-  [
+{
+  "todolist1": [
     {
-      "school-1": [
-        {
-          "1": "school1"
-        },
-        {
-          "2": "school2"
-        },
-        {
-          "3": "school3"
-        },
-        {
-          "4": "school4"
-        },
-        {
-          "5": "school5"
-        }
-      ]
+      "ToDo": "test1"
+    },
+    {
+      "ToDo": "test2"
+    },
+    {
+      "ToDo": "test3"
+    },
+    {
+      "ToDo": "test4"
+    },
+    {
+      "ToDo": "test5"
     }
   ],
-  [
+  "todolist2": [
     {
-      "school-2": [
-        {
-          "1": "school1"
-        },
-        {
-          "2": "school2"
-        },
-        {
-          "3": "school3"
-        },
-        {
-          "4": "school4"
-        },
-        {
-          "5": "school5"
-        }
-      ]
-    }
-  ],
-  [
+      "ToDo": "test6"
+    },
     {
-      "workplace-1": [
-        {
-          "1": "workplace1"
-        },
-        {
-          "2": "workplace2"
-        },
-        {
-          "3": "workplace3"
-        },
-        {
-          "4": "workplace4"
-        },
-        {
-          "5": "workplace5"
-        }
-      ]
-    }
-  ],
-  [
+      "ToDo": "test7"
+    },
     {
-      "workplace-2": [
-        {
-          "1": "workplace1"
-        },
-        {
-          "2": "workplace2"
-        },
-        {
-          "3": "workplace3"
-        },
-        {
-          "4": "workplace4"
-        },
-        {
-          "5": "workplace5"
-        }
-      ]
+      "ToDo": "test8"
+    },
+    {
+      "ToDo": "test9"
+    },
+    {
+      "ToDo": "test10"
     }
   ]
-]
+}
