@@ -1,5 +1,5 @@
 # Dynamisk-sida
 
-Hemsida skapat av Nshoan Abdlwafa. Sidan innehåller CV, portfolio med projekt samt information om sidans skapare.
+Dynamisk CV-sida skapat av mig. Sidan innehåller CV, portfolio med projekt samt lite information om mig själv.
 
-Länk till hemsida: https://chasacademy-nshoan-abdlwafa.github.io/Dynamisk-sida/index.html
+Här är en länk till [hemsidan](https://chasacademy-nshoan-abdlwafa.github.io/Dynamisk-sida/index.html).
